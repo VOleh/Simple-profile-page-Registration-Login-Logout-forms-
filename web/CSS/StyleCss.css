@@ -1,0 +1,119 @@
+
+    h1{
+        font-family: Comic Sans Ms, Verdana, Sans-Serif;
+        font-size : 50px;       
+        text-shadow: 2px 2px #ff0000;
+        color: white;
+    }
+    h3{
+        font-family:  Verdana;
+        font-size : 18px;  
+        text-transform: uppercase;
+    }    
+    .divHeader{    
+        text-align: left;            
+        position: relative;
+        padding-left: 20px; 
+        top: -35px;
+        left: -10px;
+        right:  10px;
+        width: 100%;
+        background-color: #555;
+
+    }
+
+    #divWindow{
+        width: 320px;
+        height: auto;
+        border-radius: 10px;
+        border: 1px solid #fff;
+        margin: 30px auto;
+        z-index: 150;
+    }
+    .divForm{
+        margin: 10px auto 20px auto;
+        text-align:center; 
+    }
+
+    input{            
+        width: 220px;
+        padding: 8px;
+        margin-bottom: 15px;
+        
+    
+    }
+    table{
+        width: 220px;
+        text-align: left;
+        margin-left: 40px;
+    }
+    td{
+        width: 50%;
+        text-align: left;
+    }
+    
+    img{
+        width:120px;
+        height:120px;
+        position:relative;
+        margin: 30px Auto;
+        opacity: 0.7;
+        display: block;            
+    }          
+
+    
+    .divBirthday{       
+        width: auto;
+        display: inline-block;        
+    }
+    #selectDayBirthday{
+        padding: 8px;         
+        width: 60px;
+        margin-left: -110px;
+    }
+     #selectMonthBirthday{
+        padding: 8px;         
+        width: 100px;
+    }
+    select{
+       width: 240px;
+       padding: 8px;
+       margin-bottom: 15px;
+    }
+    input[type=number]{
+        width: 50px;;
+    }
+    
+    label{
+        float: left;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    textarea{
+        resize: none;
+    }
+    .list{        
+        text-align: center;
+       font-family:  Verdana;
+        font-size : 18px;  
+    }
+    a {
+      display: block;
+      color: #000;
+      padding: 10px 20px;
+      text-decoration: none;
+
+    }
+    a:hover {
+      background-color: #555;
+      color: white;
+    }
+
+    a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+    a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
